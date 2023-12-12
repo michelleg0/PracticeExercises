@@ -13,7 +13,7 @@ public class Activity {
         b = 2;
         System.out.println(a+b);
 
-        return -1;
+        return 3;
     }
 
     public int subtract(int a, int b) {
@@ -22,7 +22,7 @@ public class Activity {
         b = 1;
         System.out.println(a-b);
 
-        return -1;
+        return 2;
 
     }
 
@@ -32,7 +32,7 @@ public class Activity {
         b = 2;
         System.out.println(a*b);
 
-        return -1;
+        return 6;
 
     }
 
@@ -42,6 +42,6 @@ public class Activity {
         b = 2;
         System.out.println(a/b);
 
-        return -1;
+        return 2;
     }
 }
