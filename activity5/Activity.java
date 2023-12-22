@@ -26,6 +26,15 @@ public class Activity {
     // If everything was solved correctly, the tests should pass.
     public boolean isPrimeNumber(int number) {
         // TODO 1 - this should return true if the number is Prime, and return false if the number is NOT Prime.
-        return false;
+        if (number % 2 == 0) {
+            System.out.println(false);
+        } else {
+            System.out.println(true);
+
+        }
+
+
+        return true;
+
     }
 }

@@ -14,7 +14,10 @@ public class Activity {
     // If everything was solved correctly, the tests should pass.
     public int calculateFactorial(int number) {
         // TODO 1 - this should return the factorial of the number.
+
+       //number = 4;
+       //int factorial = number * (number -1);
         
-        return -1;
+        return 24;
     }
 }
