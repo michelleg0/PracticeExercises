@@ -26,15 +26,29 @@ public class Activity {
     // If everything was solved correctly, the tests should pass.
     public boolean isPrimeNumber(int number) {
         // TODO 1 - this should return true if the number is Prime, and return false if the number is NOT Prime.
-        if (number % 2 == 0) {
-            System.out.println(false);
-        } else {
-            System.out.println(true);
+
+        //Start from 2 and then go up to number-1
+        for (int i = 2; i < number; i++) {
+            if (number % 2 == 0) {
+                return false;
+            }
 
         }
-
-
+        //prevents from checking every number
+        //Check for pattern. If there is a repeating pattern, then use a for loop
+        //
         return true;
-
     }
 }
+
+
+
+
+
+
+
+
+/*     Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter number: ");
+        String isPrimeNumber = scanner.next();
+*/
